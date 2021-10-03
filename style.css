@@ -211,6 +211,11 @@ body {
   text-decoration: none;
 }
 
+.right a:hover {
+  color: #b5047a;
+  transition: 0.4s;
+}
+
 .dcih {
   height: 240px;
 }
@@ -219,6 +224,11 @@ body {
   font-size: 16px;
   font-family: var(--content-fonts);
   letter-spacing: 1px;
+}
+
+.data-container-text a:hover {
+  color: #b5047a;
+  transition: 0.4s;
 }
 
 .education-container {
@@ -245,6 +255,15 @@ body {
   font-size: 16px;
   font-family: var(--content-fonts);
   letter-spacing: 1px;
+}
+
+.about-container_item a {
+  color: #d1e02b;
+  text-decoration: none;
+}
+
+.about-container_item a:hover {
+  color: #b5047a;
 }
 
 .footer-container {
